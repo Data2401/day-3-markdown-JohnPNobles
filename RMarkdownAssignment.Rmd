@@ -1,10 +1,9 @@
 ---
 title: 'RMarkdown:  In Class Assignment'
-author: "YOUR NAME HERE"
+author: "John Nobles"
 date: "Data 2401"
 output: html_document
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE) ## this line makes all the code show! 
@@ -12,26 +11,85 @@ knitr::opts_chunk$set(echo = TRUE) ## this line makes all the code show!
   ## Everything above this is R code that we need to make the file run! We'll discuss it next class.
 ```
 
-
-Reminder: We learned how to do these things in class today, but there is a "Markdown Help" page available in RStudio (and lots of help if you google). 
-
+Reminder: We learned how to do these things in class today, but there is a "Markdown Help" page available in RStudio (and lots of help if you google).
 
 # In-class Activity, Markdown
 
-**Do not skip reading this line** Create a new section at the end of this file with the title "Your work here", and beneath it, do the following 3 things. To turn this in, make sure you've committed and pushed, and turn in the link to this repository to the assignment on Blackboard.  
+**Do not skip reading this line** Create a new section at the end of this file with the title "Your work here", and beneath it, do the following 3 things. To turn this in, make sure you've committed and pushed, and turn in the link to this repository to the assignment on Blackboard.
 
-1. Make a subsection called Wise words. Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
+1.  Make a subsection called Wise words. Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
 
-2. Make a subsection called My semester. Make a three column table of the current courses you are taking, with separate columns for course number (put those in __bold__), course title (put those in _italics_), and instructor name.
+2.  Make a subsection called My semester. Make a three column table of the current courses you are taking, with separate columns for course number (put those in **bold**), course title (put those in *italics*), and instructor name.
 
-3. Lastly, make subsection called "I recommend", and add some information about your favorite author or musician.
+3.  Lastly, make subsection called "I recommend", and add some information about your favorite author or musician.
 
-- A _subsubheading_ with the name of the artist or author;    
-- An example of their writing or lyrics (formatted in a *block of text*);   
-- A _list_ of things they have written or performed (remember to use the formatting markup for a list!).     
+-   A *subsubheading* with the name of the artist or author;\
+-   An example of their writing or lyrics (formatted in a *block of text*);\
+-   A *list* of things they have written or performed (remember to use the formatting markup for a list!).
 
-
-Note that you can click "Knit" as you go along to see what the final results are going to look like. The knitting will produce an html file, which you will also need to stage/commit/push once it exists! 
+Note that you can click "Knit" as you go along to see what the final results are going to look like. The knitting will produce an html file, which you will also need to stage/commit/push once it exists!
 
 **Once you're done, remember to commit the changes and push the repo back to your assignment on GitHub!**
- 
+
+------------------------------------------------------------------------
+
+# Your work here
+
+## Wise words
+
+Here is my favorite quote:
+
+> "I just want to lie on the beach and eat hot dogs. That's all I've ever wanted." - Kevin Malone.
+
+Here is a website with more information on these wise words:
+
+<https://www.nbc.com/nbc-insider/the-funniest-quotes-from-the-office-that-we-still-use-daily>
+
+## My semester
+
+Here is a table of the courses I'm taking this semester:
+
+| Course number | Course name                                  | Professor     |
+|:-----------------|:----------------------------------|:-----------------|
+| **DATA 2401** | *Data Science I*                             | Dr. Shoemaker |
+| **MATH 3302** | *Probability and Statistics*                 | Dr. King      |
+| **MATH 2422** | *Linear Algebra and Multivariable Calculus*  | Dr. Tecarro   |
+| **MATH 2305** | *Discrete Mathematical Structures*           | Dr. Kumar     |
+| **CS 2311**   | *Data Structures and Algorithms with Python* | Dr. Henderson |
+| **ECO 1305**  | *Contemporary Economic Issues*               | Dr. Nguyen    |
+
+## I recommend
+
+### Artist name: Kendrick Lamar
+
+Here is an example of his lyrics:
+
+```         
+He's starin' at me in disbelief
+My temper is buildin', he's starin' at me, I grab my key
+He's starin' at me, I started the car, then I tried to leave
+And somethin' told me to keep it in park until I could see
+The reason why he was mad at a stranger
+Like I was supposed to save him
+Like I'm the reason he's homeless and askin' me for a favor
+He's starin' at me, his eyes followed me with no laser
+He's starin' at me, I notice that his stare is contagious
+'Cause now I'm starin' back at him, feelin' some type of disrespect
+If I could throw a bat at him, it'd be aimin' at his neck
+I never understood someone beggin' for goods
+Askin' for handouts, takin' it if they could
+And this particular person just had it down pat
+Starin' at me for the longest until he finally asked
+"Have you ever opened up Exodus 14?
+A humble man is all that we ever need"
+Tell me, how much a dollar cost?
+```
+
+Here is a list of some of Kendrick Lamar's discography:
+
+-   Section 80
+-   Untitled Unmastered
+-   To Pimp a Butterfly
+-   good kid, m.A.A.d city
+-   Mr. Morale and the Big Steppers
+-   GNX
